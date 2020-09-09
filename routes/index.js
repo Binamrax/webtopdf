@@ -3,7 +3,7 @@ const puppeteer=require('puppeteer');
 const axios=require('axios');
 var router = express.Router();
 //insecure for https
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
