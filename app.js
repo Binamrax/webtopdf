@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-fs.existsSync("public/uploads") || fs.mkdirSync("public/uploads");
+//fs.existsSync("public/uploads") || fs.mkdirSync("public/uploads");
 console.log('folder created');
 app.use('/', indexRouter);
 
