@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website to Pdf</title>
+  <meta name="description"
+    content="Convert website into pdf so that you can read offline and print in a4 format.">
+  <meta property="og:url" content="https://ytlisten.herokuapp.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Convert Website to PDF" />
+  <meta property="og:description"
+    content="Convert website into pdf so that you can read offline and print in a4 format." />
+  <meta name="twitter:card" content="Convert Website to PDF" />
+  <meta name="twitter:creator" content="@binamrax" />
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="top">
+        <div class="logo">
+          <h1>Generate Pdf of website </h1>
+        </div>
+      </div>
+    </header>
+    <div class="form-details">
+      <div class="from-collections">
+        <label style="font-size: 20px;font-weight: bold;">Place Link below</label>
+        <input type="text" id="webUrl" autofocus placeholder="Paste link of website here. " />
+        <br>
+        <button id="snap">Snap</button>
+        <div id="bug" class="bug"></div>
+        <div id="loading" class="loader hide">Loading...</div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/js/home.js"></script>
+</body>
+
+</html>
